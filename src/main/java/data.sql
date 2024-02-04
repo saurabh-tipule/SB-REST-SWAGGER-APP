@@ -1,0 +1,5 @@
+insert into student values (101,'Pune','Male',87.20,8766916028,'Saurabh')
+insert into student values (102,'Nashik','Male',85.90,856952363,'Shubham')
+insert into student values (103,'Nagar','Female',92.22,856922142,'Gauri')
+insert into student values (104,'Amravati','Male',84.69,785695223,'Kartik')
+insert into student values (105,'Mumbai','Female',81.20,9336547852,'Sandhya')
