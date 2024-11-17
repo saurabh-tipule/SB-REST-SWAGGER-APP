@@ -7,8 +7,11 @@ import javax.xml.bind.annotation.XmlRootElement;
 @Entity
 @XmlRootElement
 public class Student {
-	
+
 	private int i;
+
+	private int id;
+
 	@Id
 	private int rollno;
 
@@ -83,7 +86,12 @@ public class Student {
 	public void setMarks(double marks) {
 		this.marks = marks;
 	}
+
+	
 	public void m1(){
-		System.out.println("XYZ");
-	}
+       	System.out.println("m1--method");
+        }
+       
+
+
 }
