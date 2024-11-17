@@ -7,7 +7,8 @@ import javax.xml.bind.annotation.XmlRootElement;
 @Entity
 @XmlRootElement
 public class Student {
-
+	
+	private int id;
 	@Id
 	private int rollno;
 
