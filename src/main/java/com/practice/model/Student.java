@@ -8,7 +8,7 @@ import javax.xml.bind.annotation.XmlRootElement;
 @XmlRootElement
 public class Student {
 	
-	private int id;
+	private int i;
 	@Id
 	private int rollno;
 
@@ -83,5 +83,7 @@ public class Student {
 	public void setMarks(double marks) {
 		this.marks = marks;
 	}
-
+	public void m1(){
+		System.out.println("XYZ");
+	}
 }
